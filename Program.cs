@@ -6,11 +6,16 @@ namespace ConsoleApp2B
     {
         static void Main(string[] args)
         {
-            Rectangle r = new Rectangle(12, 3);
+            Rectangle r = new Rectangle(4, 10);
+            Console.Write("enter height: ");
+            r.Height = string.IsNullOrEmpty(Console.ReadLine().Trim()) ?  0 : Convert.ToInt32(Console.ReadLine().Trim());
+
+            Console.Write("enter height: ");
+            r.Width = string.IsNullOrEmpty(Console.ReadLine().Trim()) ?  0 :  Convert.ToInt32(Console.ReadLine().Trim());
+
+
             r.CalculatePerimeter();
 
-            Rectangle r2 = new Rectangle();
-            Rectangle r3= new Rectangle( "slkfsdl","slkfsdl" );
         }
     }
 }

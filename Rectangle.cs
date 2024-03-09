@@ -17,14 +17,6 @@ namespace ConsoleApp2B
         public Rectangle(int x){
             
         }
-
-        public Rectangle(string x){
-            
-        }
-
-        public Rectangle(string x, string y){
-            
-        }
         public Rectangle(int w, int h){
             Width = w;
             Height = h;
@@ -54,3 +46,6 @@ namespace ConsoleApp2B
         }
     }
 }
+
+
+//   github.com/wingled22/ConsoleApp2B
